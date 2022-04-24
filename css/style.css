@@ -1,0 +1,32 @@
+body {
+	background-color: #ededed;
+	font-family: Century Gothic;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex .contenido {
+	background-color: #fff;
+	box-shadow: 0px 0px 20px #ccc;
+	margin: 22px;
+	padding: 32px;
+	flex: 4 4;
+    border-radius: 15px;
+}
+.flex .contenido::after {
+	flex: 5 5;
+}
+
+
+.contenido p {
+	font-size: 70px;
+	color: #333;
+	text-align: center;
+}
+
+.contenido h4{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
