@@ -1,32 +1,43 @@
-body {
-	background-color: #ededed;
-	font-family: Century Gothic;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.flex {
-	display: flex;
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.flex .contenido {
-	background-color: #fff;
-	box-shadow: 0px 0px 20px #ccc;
-	margin: 22px;
-	padding: 32px;
-	flex: 4 4;
-    border-radius: 15px;
-}
-.flex .contenido::after {
-	flex: 5 5;
+.menu{
+    width: 100%;
+    background: #2f2f2f; 
+    text-align: center;
+    position: fixed;
 }
 
-
-.contenido p {
-	font-size: 70px;
-	color: #333;
-	text-align: center;
+.menu ul{
+    list-style: none;
 }
 
-.contenido h4{
-    font-family: sans-serif;
-    font-size: 2rem;
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all .3s ease;
+}
+
+.menu ul li:hover{
+    transform: scale(1.2);
+    background: #375be9;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+
+p{
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
 }
