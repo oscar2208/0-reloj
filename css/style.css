@@ -12,7 +12,7 @@
     width: 100%;
     background: #2f2f2f; 
     text-align: center;
-    position: fixed;
+    position: static;
 }
 
 .menu ul{
@@ -34,21 +34,55 @@
     color: white;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+}
+
+.a1{
+    margin-top: 30px;
+    text-align: center;
     font-size: x-large;
+
+    font-family: 'Open Sans', sans-serif;
 }
 
 p:first-child {
-    align-items: center;
-    padding-top: 120px;
-    width: 0 auto;
-    height: 100px;
+
+    padding-top: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
 p {
+    text-align: justify;
+    position: relative;
+    left: 700px;
+    padding-top: 20px;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+img{
+    position: inherit;
+    width: 60%;
+    right: 400px;
     align-items: center;
     padding-top: 20px;
-    width: 0 auto ;
-    height: 200px;
-    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    text-align: center;
+
+}
+
+canvas{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.c1{
+    align-items: center;
+    position: absolute;
+    
 }
